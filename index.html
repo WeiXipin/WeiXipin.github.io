@@ -77,8 +77,10 @@
 <table>
   <tbody>
     <tr>
-      <td><audio src="49.mid" style="" type="audio/mpeg" controls="" controlsList="nodownload noplaybackrate">Your browser does not support the audio element.</audio></td>
-      <td><audio src="audio/sod/best/12_unconditioned.mp3" style="" type="audio/mpeg" controls="" controlsList="nodownload noplaybackrate">Your browser does not support the audio element.</audio></td>
+            <midi-player id="midiplayer_2" src="./zelda.mid" sound-font="" visualizer="#midivisualizer_2"
+                        style="width:1080px">
+            </midi-player>
+            <midi-visualizer type="waterfall" id="midivisualizer_2" style="width:1080px"> </midi-visualizer>
     </tr>
     <tr>
       <td><audio src="audio/sod/best/16_unconditioned.mp3" style="" type="audio/mpeg" controls="" controlsList="nodownload noplaybackrate">Your browser does not support the audio element.</audio></td>
@@ -307,5 +309,6 @@
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="./html-midi-player.js"></script>
   </body>
 </html>
